@@ -82,8 +82,6 @@ public class SeleniumOperations {
 		System.out.println("Found element: " + checkpassword);
 		checkpassword.sendKeys("AHgru*34");
 		
-		File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        FileHandler.copy(screenshotFile, new File("C:\\Users\\Gruhi\\Desktop\\707\\github\\task2_1P_s223746541\\screenshot.png"));
 		
         WebElement click = driver.findElement(By.id("accountaction-btn"));
         click.click();

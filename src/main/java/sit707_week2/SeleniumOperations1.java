@@ -66,10 +66,7 @@ public class SeleniumOperations1 {
 		password.sendKeys("Qazwsx@123");
 		
 		
-		
-		File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        FileHandler.copy(screenshotFile, new File("C:\\Users\\Gruhi\\Desktop\\707\\github\\task2_1P_s223746541\\screenshot.png"));
-		
+	
 		// Sleep a while
 		sleep(2);
 		
