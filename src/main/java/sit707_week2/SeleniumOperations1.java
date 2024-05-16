@@ -1,6 +1,7 @@
 package sit707_week2;
 
 import org.openqa.selenium.TakesScreenshot;
+
 import java.io.File;
 import java.io.IOException;
 import org.openqa.selenium.By;
@@ -31,7 +32,7 @@ public class SeleniumOperations1 {
 	
 	public static void officeworks_registration_page(String url) throws IOException {
 		// Step 1: Locate chrome driver folder in the local drive.
-		System.setProperty("webdriver.chrome.driver", "C:/Users/Gruhi/Desktop/707/chromedriver-win64/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Gruhi\\Downloads\\chromedriver-win64 (3)\\chromedriver-win64\\chromedriver.exe");
 		// Step 2: Use above chrome driver to open up a chromium browser.
 		System.out.println("Fire up chrome browser.");
 		WebDriver driver = new ChromeDriver();
